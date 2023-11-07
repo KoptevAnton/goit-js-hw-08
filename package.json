@@ -5,7 +5,9 @@
   "homepage": "https://KoptevAnton.github.io/goit-js-hw-08",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/",
+    "commit": "git add . && git commit -m 'update' && git push"
+
   },
   "repository": {
     "type": "git",
